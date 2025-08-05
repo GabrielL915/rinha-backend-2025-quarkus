@@ -13,6 +13,7 @@ public class PaymentResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public String payment() {
+        //enqueue
         return "enqueue";
     }
 }
